@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28091D1D1C859F56008FA6FC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28091D1C1C859F56008FA6FC /* FirstViewController.m */; };
+		28091D201C859F6D008FA6FC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28091D1F1C859F6D008FA6FC /* SecondViewController.m */; };
+		28091D231C85ABA0008FA6FC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28091D221C85ABA0008FA6FC /* ThirdViewController.m */; };
 		281034511C602269006D674E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 281034501C602269006D674E /* main.m */; };
 		281034541C602269006D674E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 281034531C602269006D674E /* AppDelegate.m */; };
 		281034571C60226A006D674E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281034561C60226A006D674E /* ViewController.m */; };
@@ -15,6 +18,7 @@
 		2810345F1C60226B006D674E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2810345D1C60226B006D674E /* LaunchScreen.storyboard */; };
 		2810346A1C60226B006D674E /* ___________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281034691C60226B006D674E /* ___________Tests.m */; };
 		281034751C60226B006D674E /* ___________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281034741C60226B006D674E /* ___________UITests.m */; };
+		28241E1D1C8681BD0014DC7D /* FFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28241E1C1C8681BD0014DC7D /* FFView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28091D1B1C859F56008FA6FC /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		28091D1C1C859F56008FA6FC /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		28091D1E1C859F6D008FA6FC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		28091D1F1C859F6D008FA6FC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		28091D211C85ABA0008FA6FC /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		28091D221C85ABA0008FA6FC /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		2810344C1C602269006D674E /* 选项卡视图同步滚动测试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "选项卡视图同步滚动测试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		281034501C602269006D674E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		281034521C602269006D674E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		281034701C60226B006D674E /* 选项卡视图同步滚动测试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "选项卡视图同步滚动测试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		281034741C60226B006D674E /* ___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________UITests.m"; sourceTree = "<group>"; };
 		281034761C60226B006D674E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28241E1B1C8681BD0014DC7D /* FFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFView.h; sourceTree = "<group>"; };
+		28241E1C1C8681BD0014DC7D /* FFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +113,17 @@
 		2810344E1C602269006D674E /* 选项卡视图同步滚动测试 */ = {
 			isa = PBXGroup;
 			children = (
+				28241E1A1C8681BD0014DC7D /* FFView */,
 				281034521C602269006D674E /* AppDelegate.h */,
 				281034531C602269006D674E /* AppDelegate.m */,
 				281034551C602269006D674E /* ViewController.h */,
 				281034561C60226A006D674E /* ViewController.m */,
+				28091D1E1C859F6D008FA6FC /* SecondViewController.h */,
+				28091D1F1C859F6D008FA6FC /* SecondViewController.m */,
+				28091D1B1C859F56008FA6FC /* FirstViewController.h */,
+				28091D1C1C859F56008FA6FC /* FirstViewController.m */,
+				28091D211C85ABA0008FA6FC /* ThirdViewController.h */,
+				28091D221C85ABA0008FA6FC /* ThirdViewController.m */,
 				281034581C60226A006D674E /* Main.storyboard */,
 				2810345B1C60226A006D674E /* Assets.xcassets */,
 				2810345D1C60226B006D674E /* LaunchScreen.storyboard */,
@@ -138,6 +157,15 @@
 				281034761C60226B006D674E /* Info.plist */,
 			);
 			path = "选项卡视图同步滚动测试UITests";
+			sourceTree = "<group>";
+		};
+		28241E1A1C8681BD0014DC7D /* FFView */ = {
+			isa = PBXGroup;
+			children = (
+				28241E1B1C8681BD0014DC7D /* FFView.h */,
+				28241E1C1C8681BD0014DC7D /* FFView.m */,
+			);
+			path = FFView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28091D1D1C859F56008FA6FC /* FirstViewController.m in Sources */,
+				28091D201C859F6D008FA6FC /* SecondViewController.m in Sources */,
+				28241E1D1C8681BD0014DC7D /* FFView.m in Sources */,
 				281034571C60226A006D674E /* ViewController.m in Sources */,
 				281034541C602269006D674E /* AppDelegate.m in Sources */,
 				281034511C602269006D674E /* main.m in Sources */,
+				28091D231C85ABA0008FA6FC /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "选项卡视图同步滚动测试/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HF.-----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "选项卡视图同步滚动测试/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HF.-----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +532,7 @@
 				2810347B1C60226B006D674E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2810347C1C60226B006D674E /* Build configuration list for PBXNativeTarget "选项卡视图同步滚动测试Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +541,7 @@
 				2810347E1C60226B006D674E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2810347F1C60226B006D674E /* Build configuration list for PBXNativeTarget "选项卡视图同步滚动测试UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +550,7 @@
 				281034811C60226B006D674E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
